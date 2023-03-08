@@ -1,0 +1,13 @@
+[package]
+name = "guessing_game"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ssali Benjamin, ssalibenjamin0402@gmail.com"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[net]
+git-fetch-with-cli = true
+
+[dependencies]
+rand = "0.8.5"
